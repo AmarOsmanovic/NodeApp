@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <script src="https://kit.fontawesome.com/68d9ef9e6f.js" crossorigin="anonymous"></script>
+
+  <title>Rezultati</title>
+  <link rel='stylesheet' href='/stylesheets/rezultat.css' />
+  <link rel="icon" href="/images/project-management.png" type="image/png">
+</head>
+<body>
+
+<div class="container-fluid">
+  <div class="header">
+    <h2>Rezultati</h2>
+  </div>
+  <div class="main">
+    <% mappedResults.forEach(function(result) { %>
+      <p>ID: <%= result.id %></p>
+      <p>Putni Nalog ID: <%= result.putni_nalog_id %></p>
+      <p>Iznos: <%= result.iznos %></p>
+      <p>Oporezivo: <%= result.oporezivo %></p>
+      <p>Neoporezivo: <%= result.neoporezivo %></p>
+      <p>PDV: <%= result.pdv %></p>
+      <p>Vrsta Troska ID: <%= result.vrsta_troska_id %></p>
+      <p>Valuta ID: <%= result.valuda_id %></p>
+      <p>Vrijeme: <%= result.vrijeme.toLocaleDateString() %></p>
+      <p>Dobavljac ID: <%= result.dobavljac_id %></p>
+    <% }); %>
+  </div>
+</div>
+</body>
+</html>

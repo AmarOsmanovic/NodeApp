@@ -1,0 +1,46 @@
+:root{
+    --plava: #161d3b;
+    --narancasta: #fa8c45;
+    --bijela: #ffffff;
+    --siva1: #f7f5f4;
+    --siva2: #e1e1e1;
+    --siva3: #939394;
+    --pozadina: #0093E9 linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    --pozadinaButton: #0093E9 linear-gradient(160deg, #80D0C7 0%, #0093E9 100%);
+    --pozadinaButtonTamna: #0077CC linear-gradient(160deg, #66B2B8 0%, #0077CC 100%);
+
+}
+
+
+body {
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    height: calc(100vh - 2px);
+    display: grid;
+    place-items: center;
+    background: var(--pozadina);
+}
+
+
+.container-fluid{
+    background-color: var(--bijela);
+    width: calc(100% - 100px);
+    height: 650px;
+    margin: 0 50px;
+    border-radius: 15px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+}
+
+.container-fluid .header h2{
+    font-weight: bold;
+}
+
+.container-fluid .main{
+    height: 100%;
+    width: 300px;
+    padding-top: 40px;
+    overflow-y: scroll;
+}
+
