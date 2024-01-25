@@ -83,10 +83,6 @@ If you would like to contribute to NodeApp, follow these steps:
 2. Create a new branch for your feature or bug fix.
 3. Make your changes and submit a pull request.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
 ## Contact
 
 For any questions or inquiries, please contact [your.email@example.com].
