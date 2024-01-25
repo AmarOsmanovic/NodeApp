@@ -23,7 +23,7 @@ Before getting started, ensure the following prerequisites are met:
 1. **Clone the repository:**
 
     ```bash
-    [git clone https://github.com/AmarOsmanovic/NodeApp.git]
+    git clone https://github.com/AmarOsmanovic/NodeApp.git
     ```
 
 2. **Navigate to the project directory:**
