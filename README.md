@@ -85,6 +85,6 @@ If you would like to contribute to NodeApp, follow these steps:
 
 ## Contact
 
-For any questions or inquiries, please contact [your.email@example.com].
+For any questions or inquiries, please contact amar.osmanovic07@gmail.com.
 
 ---
